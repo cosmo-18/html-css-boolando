@@ -5,11 +5,17 @@
     font-family: sans-serif;
 }
 
-.container-1{
+header{
     margin: auto;
     width: 100%;
-    background-color: orange; 
     position: fixed;
+    z-index: 1;
+}
+
+.container-1{
+    background-color: orange;
+    box-shadow: 3px 3px 3px rgb(146, 145, 145);
+    padding: 15px;
 }
 
 a{
@@ -26,7 +32,24 @@ a{
 }
 
 #logo{
-    width: 20%;
-    padding: 20px;
+    width: 15%;
 }
 
+.container{
+    margin: auto;
+    width: 80%;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.foto-1{
+    float: left;
+    width: calc(100%/3);
+    padding: 15px;
+}
+
+.foto-2{
+    display: none;
+}
