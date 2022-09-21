@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-1{
+    margin: auto;
+    width: 100%;
+    background-color: orange; 
+    position: fixed;
+}
+
+a{
+    color: white;
+}
+
+.container-2{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#logo{
+    width: 20%;
+    padding: 20px;
+}
+
