@@ -53,3 +53,29 @@ a{
 .foto-2{
     display: none;
 }
+
+.black-screen{
+    width: 100%;
+    background-color: black;
+    display: flex ;
+    margin: auto;
+
+}
+
+
+.cont{
+    color: white;
+    width: calc(50%*2%);
+    margin: auto;
+    padding: 20px 0px;
+    line-height: 30px;
+}
+
+.info{
+    font-size: small;
+    font-weight: lighter;
+}
+
+.icon{
+    float: right;
+}
